@@ -6,9 +6,9 @@
 
 :custom
 clear custom_choice
-menu WTware boot
-item --gap Boot WTware submenu
-item option_one ${space} Loading a kernel and initrd
+menu WTware 5.8.88
+item --gap Evaluation copy of WTware boot from local network
+item option_one ${space} Boot WTware version 5.8.88
 choose custom_choice || goto custom_exit
 echo ${cls}
 goto ${custom_choice}
